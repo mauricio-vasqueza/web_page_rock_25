@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type=image/png" href="../assets/Iconos/vinilo.png">
+    <title>The Beatles</title>
+
+    <link 
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+      rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="../css/idolosCSS/beatles.css">
+  </head>
+
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-3 fw-bold text-uppercase" href="index.html#histori"><img src="/assets/Iconos/vinilo.png" alt="Icono History" style="height: 40px; margin-right: 10px;">Historia del rock </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav me-3 mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio  </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Historia
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="history/50s.html">50s - Los orígenes</a></li>
+                <li><a class="dropdown-item" href="history/60s.html">60s - Explosión Británica</a></li>
+                <li><a class="dropdown-item" href="history/70s.html">70s - La Era Dorada</a></li>
+                <li><a class="dropdown-item" href="history/80s.html">80s - Reino del Hard y Metal</a></li>
+                <li><a class="dropdown-item" href="history/90s.html">90s - Crunge y rebeldía alternativa</a></li>
+                <li><a class="dropdown-item" href="history/2000s.html">2000s - El Renacimiento</a></li>
+                <li><a class="dropdown-item" href="history/2010s.html">2010s - La Era Digital</a></li>
+
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="culture.html">Cultura y estilo</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Íconos y Legendas
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../IconosYLegendas/Queen.html">Queen</a></li>
+                <li><a class="dropdown-item" href="../IconosYLegendas/Beatles.html">The Beatles</a></li>
+                <li><a class="dropdown-item" href="../IconosYLegendas/Aerosmith.html">Aerosmith</a></li>
+                <li><a class="dropdown-item" href="../IconosYLegendas/MichaelJackson.html">Michael Jackson</a></li>
+                <li><a class="dropdown-item" href="../IconosYLegendas/SodaStereo.html">Soda Stereo</a></li>
+                <li><a class="dropdown-item" href="../IconosYLegendas/RodStewart.html">Rod Stewart</a></li>
+                <li><a class="dropdown-item" href="IconosYLegendas/HombresG.html">Hombres G</a></li>
+                <li><a class="dropdown-item" href="IconosYLegendas/ThePolice.html">The police</a></li>
+                <li><a class="dropdown-item" href="../IconosYLegendas/Madonna.html">Madonna</a></li>
+                <li><a class="dropdown-item" href="../IconosYLegendas/TheRollingStones.html">The Rolling Stones</a></li>
+                <li><a class="dropdown-item" href="../IconosYLegendas/CyndiLauper.html">Cyndi Lauper</a></li>
+
+              </ul>
+            </li>
+
+            
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+    <!-- HERO -->
+    <header class="beatles-hero d-flex align-items-center">
+      <div class="container text-white text-center">
+        <img src="../assets/img-iconos/TheBeatles/tip.png">
+        <p class="lead">La banda que revolucionó el mundo</p>
+      </div>
+    </header>
+
+    <!-- SECCIÓN BIO + FOTO -->
+    <section class="container my-5">
+      <div class="row align-items-center g-4">
+        <div class="col-md-5">
+
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/img-iconos/TheBeatles/fondo2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img-iconos/TheBeatles/tocando.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img-iconos/TheBeatles/caminando.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img-iconos/TheBeatles/fondo1.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+
+        <div class="col-md-7">
+          <h2 class="fw-bold mb-3">Acerca de...</h2>
+          <p class="fs-5">
+            Los Beatles fueron una banda de rock británica formada en Liverpool en 1960.
+            Integrada por John Lennon, Paul McCartney, George Harrison y Ringo Starr,
+            la banda es ampliamente considerada como la más influyente de todos los tiempos. 
+            Su música abarcó una variedad de estilos, desde el rock and roll inicial hasta
+            el pop psicodélico y el rock experimental. Con álbumes icónicos como "Sgt. Pepper's Lonely Hearts Club Band" 
+            y "Abbey Road", los Beatles no solo revolucionaron la música, 
+            sino que también tuvieron un impacto significativo en la cultura popular y la sociedad de la década de 1960. 
+            Su legado perdura hasta hoy, con millones de seguidores en todo el mundo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- INTEGRANTES -->
+    <section class="container my-5">
+      <h2 class="fw-bold text-center mb-4">Integrantes</h2>
+
+      <div class="row text-center g-4 beatles-members">
+
+        <div class="col-md-3">
+          <img src="../assets/img-iconos/TheBeatles/JhonLenon.jpg" class="member-img rounded-circle" alt="">
+          <h5 class="mt-3">John Lennon</h5>
+        </div>
+
+        <div class="col-md-3">
+          <img src="../assets/img-iconos/TheBeatles/PaulMccartney.jpg" class="member-img rounded-circle" alt="">
+          <h5 class="mt-3">Paul McCartney</h5>
+        </div>
+
+        <div class="col-md-3">
+          <img src="../assets/img-iconos/TheBeatles/GeorgeHarrison.jpg" class="member-img rounded-circle" alt="">
+          <h5 class="mt-3">George Harrison</h5>
+        </div>
+
+        <div class="col-md-3">
+          <img src="../assets/img-iconos/TheBeatles/RingoSstar.jpg" class="member-img rounded-circle" alt="">
+          <h5 class="mt-3">Ringo Starr</h5>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- TEMAS POPULARES -->
+    <section class="container my-5"><!-- 1-->
+      <h2 class="fw-bold text-center mb-4">Timeline</h2>
+      <div class="container"><!-- 2-->
+        
+        <div class="row g-4 mt-5"><!-- 3-->
+
+          <div class="col-md-7 d-flex flex-column"><!-- 4-->
+            <div class="align-items-start"><!-- 5-->
+              <h1 class="display-4 fw-bold mb1">1960 - 1962</h1>
+              <h4 class="fs-5 mb-0">Hamburgo</h4> 
+              <p class="fs-6 mb-0">Alemania</p>
+            </div><!-- 5-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 6-->
+              <p class="fs-5 timelime-text">
+                Los Beatles se consolidaron en Hamburgo, donde tocaron extensos horarios en clubes 
+                como el Indra y el Kaiserkeller. Allí desarrollaron un sonido más firme y seguro, 
+                lejos del estilo amateur inicial. La exigencia del público alemán los obligó a perfeccionar 
+                presencia escénica y resistencia musical.
+              </p>
+              <p class="fs-5 timelime-text">
+                Durante este periodo, Stuart Sutcliffe formó parte del grupo como bajista, aportando una sensibilidad 
+                artística que influyó en la imagen de la banda. Su salida provocó que Paul McCartney asumiera el bajo, 
+                modificando la estructura instrumental del grupo. Asimismo, la presencia de Pete Best marcó una etapa 
+                previa a la formación definitiva.
+              </p>
+              <p class="fs-5 timelime-text">
+                Al regresar a Liverpool, el Cavern Club se convirtió en su escenario principal, atrayendo seguidores 
+                y notoriedad local. Las actuaciones frecuentes fortalecieron su cohesión musical y su capacidad para 
+                manejar al público. Ese ambiente permitió que su personalidad grupal se volviera más definida y reconocible.
+              </p>
+            </div><!-- 6-->
+          </div><!-- 4-->
+          <div class="col-md-5"><img src="../assets/img-iconos/TheBeatles/timeline/TL1.1.png" class="img-thumbnail" alt="..."></div>
+        </div><!-- 3-->
+
+        <!-- --------------------------------------------------------- --><!-- --------------------------------------------------------- -->
+        <div class="row g-4 mt-5"><!-- 7-->
+          <div class="col-md-5"><img src="../assets/img-iconos/TheBeatles/timeline/TL1.2.jpg" class="img-thumbnail" alt="..."></div>
+
+          <div class="col-md-7 d-flex flex-column"><!-- 10-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 9-->
+              <p class="fs-5 timelime-text">
+                Brian Epstein descubrió al grupo en una de esas presentaciones y quedó impresionado por su energía y potencial comercial. 
+                A partir de su gestión, la banda adoptó una imagen más pulida, trajeada y coherente con la cultura pop emergente. 
+                Su influencia fue clave para abrirles puertas mediáticas y profesionales.
+              </p>
+              <p class="fs-5 timelime-text">
+                El encuentro con George Martin en EMI marcó el inicio de su desarrollo en estudio, aportando dirección técnica y 
+                refinamiento sonoro. A pesar de algunas dudas iniciales sobre sus voces, Martin reconoció su talento compositivo 
+                y su carisma musical. Bajo su guía grabaron Love Me Do, su primer logro discográfico importante.
+              </p>
+              <p class="fs-5 timelime-text">
+                El período concluyó con la transición hacia el reconocimiento nacional y el inicio del fenómeno que vendría después. 
+                Las experiencias acumuladas en clubes, cambios internos y primeras grabaciones sentaron una base sólida para su evolución. 
+                Este ciclo definió la identidad que impulsaría su ascenso histórico.
+              </p>
+            </div><!-- 9-->
+          </div><!-- 10-->
+        </div><!-- 7-->
+
+        <div class="row g-4 mt-5"><!-- 3-->
+
+          <div class="col-md-7 d-flex flex-column"><!-- 4-->
+            <div class="align-items-start"><!-- 5-->
+              <h1 class="display-4 fw-bold mb1">1963</h1>
+              <h4 class="fs-5 mb-0">Liverpool - Londres</h4> 
+              <p class="fs-6 mb-0">Reino Unido</p>
+            </div><!-- 5-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 6-->
+              <p class="fs-5 timelime-text">
+                Durante este año, los Beatles alcanzaron notoriedad nacional con el lanzamiento de Please Please Me, 
+                su primer álbum en encabezar listas británicas. Sus actuaciones en radio y televisión expandieron su 
+                presencia pública rápidamente. La respuesta del público marcó el inicio del reconocimiento masivo.
+              </p>
+              <p class="fs-5 timelime-text">
+                La banda comenzó una intensa agenda de giras dentro del Reino Unido, actuando en teatros, salas y 
+                programas en vivo. Su carisma y humor espontáneo en entrevistas los diferenciaron del resto de artistas. 
+                Este magnetismo ayudó a cimentar su lugar en la cultura popular británica.
+              </p>
+              <p class="fs-5 timelime-text">
+                El fenómeno creciente llevó a la prensa a acuñar el término “Beatlemanía”, reflejando el entusiasmo colectivo 
+                que despertaban. Multitudes esperaban fuera de hoteles y recintos, creando escenas inéditas para la época. 
+                El público joven los convirtió en símbolo generacional.
+              </p>
+            </div><!-- 6-->
+          </div><!-- 4-->
+          <div class="col-md-5"><img src="../assets/img-iconos/TheBeatles/timeline/TL2.1.jpg" class="img-thumbnail" alt="..."></div>
+        </div><!-- 3-->
+
+        <div class="row g-4 mt-5"><!-- 7-->
+          <div class="col-md-5"><img src="../assets/img-iconos/TheBeatles/timeline/TL2.2.png" class="img-thumbnail" alt="..."></div>
+
+          <div class="col-md-7 d-flex flex-column"><!-- 10-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 9-->
+              <p class="fs-5 timelime-text">
+                Ese mismo año lanzaron With The Beatles, un álbum que mantuvo su éxito comercial y expandió su repertorio. 
+                La combinación de composiciones propias y versiones reinterpretadas demostró su versatilidad musical. 
+                Su estilo comenzó a consolidarse con armonías vocales más elaboradas.
+              </p>
+              <p class="fs-5 timelime-text">
+                Su aparición en el Royal Variety Performance ante la realeza marcó un momento clave en su legitimación social. 
+                John Lennon bromeó con el público aristocrático, mostrando seguridad y audacia. Este evento confirmó que habían 
+                trascendido las barreras tradicionales del entretenimiento.
+              </p>
+              <p class="fs-5 timelime-text">
+                Al cierre de 1963, los Beatles dominaban el mercado británico y se preparaban para la expansión internacional. 
+                Sus ventas, presencia mediática e impacto cultural sentaron las bases para el salto hacia Estados Unidos. 
+                Este año consolidó su posición como líderes de una nueva ola musical.
+              </p>
+            </div><!-- 9-->
+          </div><!-- 10-->
+        </div><!-- 7-->
+
+
+        <div class="row g-4 mt-5"><!-- 3-->
+
+          <div class="col-md-7 d-flex flex-column"><!-- 4-->
+            <div class="align-items-start"><!-- 5-->
+              <h1 class="display-4 fw-bold mb1">1964</h1>
+              <h4 class="fs-5 mb-0">Nueva York</h4> 
+              <p class="fs-6 mb-0">Estados Unidos</p>
+            </div><!-- 5-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 6-->
+              <p class="fs-5 timelime-text">
+                Los Beatles irrumpieron con fuerza en Estados Unidos, aterrizando en Nueva York y provocando un recibimiento multitudinario. 
+                Su presentación en el programa de Ed Sullivan fue vista por un número récord de espectadores. 
+                Este momento selló su entrada definitiva al mercado norteamericano.
+              </p>
+              <p class="fs-5 timelime-text">
+                Durante su estancia en ciudades como Washington y Miami, ofrecieron conciertos que desbordaron recintos y 
+                capacidades organizativas. La prensa estadounidense documentó la efervescencia social que los rodeaba. 
+                El público juvenil los adoptó como símbolo de modernidad y rebeldía cultural.
+              </p>
+              <p class="fs-5 timelime-text">
+                Tras su impacto estadounidense, regresaron al Reino Unido para continuar actividades promocionales y creativas. 
+                Londres se convirtió en el centro de sus grabaciones y gestiones artísticas. La industria británica los posicionó 
+                como embajadores culturales ante el resto del mundo.
+              </p>
+            </div><!-- 6-->
+          </div><!-- 4-->
+          <div class="col-md-5"><img src="../assets/img-iconos/TheBeatles/timeline/TL3.1.jpg" class="img-thumbnail" alt="..."></div>
+        </div><!-- 3-->
+
+        <div class="row g-4 mt-5"><!-- 7-->
+          <div class="col-md-5"><img src="../assets/img-iconos/TheBeatles/timeline/TL3.2.jpg" class="img-thumbnail" alt="..."></div>
+
+          <div class="col-md-7 d-flex flex-column"><!-- 10-->
+            <div class="align-items-start"><!-- 8-->
+              <h1 class="display-4 fw-bold mb-1">Olympia Theatre</h1> 
+              <h4 class="fs-5 mb-0">Paris </h4> 
+              <p class="fs-6 mb-0">Francia</p>
+            </div><!-- 8-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 9-->
+              <p class="fs-5 timelime-text">
+                Ese mismo año filmaron A Hard Day’s Night, producida y rodada principalmente en Londres y alrededores. 
+                La película retrató su ritmo frenético y consolidó su imagen humorística e irreverente. Su banda sonora 
+                acompañó este lanzamiento, elevando aún más su presencia mediática.
+              </p>
+              <p class="fs-5 timelime-text">
+                Posteriormente viajaron a Francia, donde actuaron en el Olympia Theatre de París. La recepción fue entusiasta 
+                y demostró que su popularidad trascendía la barrera idiomática. Los medios franceses destacaron su energía escénica 
+                y su capacidad para atraer audiencias diversas.
+              </p>
+              <p class="fs-5 timelime-text">
+                Al finalizar 1964, los Beatles se habían convertido en una referencia global tanto musical como cultural. 
+                Sus ventas internacionales, presencia cinematográfica y expansión mediática consolidaron su estatus dominante. 
+                Este año marcó el momento en que dejaron de ser un fenómeno británico para convertirse en un fenómeno mundial.
+              </p>
+            </div><!-- 9-->
+          </div><!-- 10-->
+        </div><!-- 7-->
+
+        <div class="row g-4 mt-5"><!-- 3-->
+
+          <div class="col-md-7 d-flex flex-column"><!-- 4-->
+            <div class="align-items-start"><!-- 5-->
+              <h1 class="display-4 fw-bold mb1">1965</h1>
+              <h4 class="fs-5 mb-0">Paradise island, Obertauern </h4> 
+              <p class="fs-6 mb-0">Bahamas - Austria</p>
+            </div><!-- 5-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 6-->
+              <p class="fs-5 timelime-text">
+                El periodo arrancó con una expansión artística que trasladó las grabaciones y filmaciones lejos del entorno habitual. 
+                Las Bahamas ofrecieron un escenario exótico donde la producción audiovisual adoptó un tono más arriesgado y estilizado. 
+                La combinación de sol, locaciones abiertas y nuevas atmósferas influyó en un espíritu más lúdico y relajado.
+              </p>
+              <p class="fs-5 timelime-text">
+                Austria aportó un contraste absoluto, con paisajes alpinos y secuencias filmadas entre nieve y montañas. 
+                Este cambio climático y visual permitió explorar un humor más surrealista y una estética menos convencional. 
+                La banda absorbió influencias culturales que luego se reflejarían en composiciones más profundas y expresivas.
+              </p>
+              <p class="fs-5 timelime-text">
+                España se convirtió en otra parada significativa, brindando una mezcla de tradición mediterránea y modernidad urbana. 
+                Las referencias culturales hispánicas despertaron sensibilidad hacia ritmos y narrativas distintas a su repertorio habitual. 
+                Este contacto reforzó la búsqueda de identidad artística más amplia y menos anglosajona.
+              </p>
+            </div><!-- 6-->
+          </div><!-- 4-->
+          <div class="col-md-5"><img src="../assets/img-iconos/TheBeatles/timeline/TL4.1.jpg" class="img-thumbnail" alt="..."></div>
+        </div><!-- 3-->
+
+        <div class="row g-4 mt-5"><!-- 7-->
+          <div class="col-md-5"><img src="../assets/img-iconos/TheBeatles/timeline/TL4.2.jpg" class="img-thumbnail" alt="..."></div>
+
+          <div class="col-md-7 d-flex flex-column"><!-- 10-->
+            <div class="align-items-start"><!-- 8-->
+              <h1 class="display-4 fw-bold mb-1">Cinecittà</h1> 
+              <h4 class="fs-5 mb-0">Roma </h4> 
+              <p class="fs-6 mb-0">Italia</p>
+            </div><!-- 8-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 9-->
+              <p class="fs-5 timelime-text">
+                Italia ofreció un entorno vibrante donde moda, cine y arquitectura convivían con elegancia natural. 
+                Las calles romanas y el ambiente cultural italiano promovieron una visión más estética del arte y la imagen pública. 
+                La presencia mediática en el país fortaleció su reputación como íconos contemporáneos y no solo como músicos populares.
+              </p>
+              <p class="fs-5 timelime-text">
+                En paralelo, la incorporación de arreglos orquestales y nuevas herramientas de estudio permitió experimentar con capas 
+                sonoras más complejas. Estas innovaciones brotaron en estudios europeos donde técnicos, ingenieros y creativos de 
+                distintas nacionalidades aportaron nuevas perspectivas. La transformación musical tomó forma sin depender de un único lugar.
+              </p>
+              <p class="fs-5 timelime-text">
+                Al finalizar el año, quedó claro que el crecimiento creativo ya no respondía a fronteras geográficas ni patrones establecidos. 
+                Viajes, influencias visuales y estímulos culturales redefinieron su relación con el arte y la composición. 
+                Esta etapa se consolidó como un tránsito hacia una nueva dimensión musical y conceptual.
+              </p>
+            </div><!-- 9-->
+          </div><!-- 10-->
+        </div><!-- 7-->
+
+        <div class="row g-4 mt-5"><!-- 3-->
+
+          <div class="col-md-7 d-flex flex-column"><!-- 4-->
+            <div class="align-items-start"><!-- 5-->
+              <h1 class="display-4 fw-bold mb1">1966</h1>
+              <h4 class="fs-5 mb-0">Tokio, Manila</h4> 
+              <p class="fs-6 mb-0">Japon - Filipinas</p>
+            </div><!-- 5-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 6-->
+              <p class="fs-5 timelime-text">
+                El año tomó un giro decisivo con la serie de presentaciones en Tokio, donde el Nippon Budokan se transformó en 
+                escenario de tensiones culturales y fascinación masiva. La mezcla de tradición japonesa y modernidad pop generó 
+                un contraste que impactó al grupo en lo personal y artístico. Aquella experiencia reveló el límite emocional del 
+                espectáculo en vivo.
+              </p>
+              <p class="fs-5 timelime-text">
+                Poco después, la visita a Manila se convirtió en uno de los momentos más incómodos de su trayectoria internacional. 
+                Un malentendido con el entorno gubernamental derivó en hostilidad, persecuciones y salida apresurada del país. 
+                Este episodio dejó claro que la dimensión política podía interferir en su presencia artística.
+              </p>
+              <p class="fs-5 timelime-text">
+                Con ese desgaste acumulado, la decisión de abandonar definitivamente las giras comenzó a tomar forma. El agotamiento, 
+                la presión mediática y la distorsión sonora en estadios aceleraron el cierre de la etapa concertística. 
+                El foco se desplazó desde el escenario hacia la elaboración musical interior.
+              </p>
+            </div><!-- 6-->
+          </div><!-- 4-->
+          <div class="col-md-5"><img src="../assets/img-iconos/TheBeatles/timeline/TL5.1.jpg" class="img-thumbnail" alt="..."></div>
+        </div><!-- 3-->
+
+        <div class="row g-4 mt-5"><!-- 7-->
+          <div class="col-md-5"><img src="../assets/img-iconos/TheBeatles/timeline/TL5.2.jpg" class="img-thumbnail" alt="..."></div>
+
+          <div class="col-md-7 d-flex flex-column"><!-- 10-->
+            <div class="align-items-start"><!-- 8-->
+              <h1 class="display-4 fw-bold mb-1">Abbey Road, EMI Studios</h1> 
+              <h4 class="fs-5 mb-0">Londres</h4> 
+              <p class="fs-6 mb-0">Reino Unido</p>
+            </div><!-- 8-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 9-->
+              <p class="fs-5 timelime-text">
+                En paralelo, el trabajo en EMI Studios de Londres abrió una puerta a la innovación técnica con grabaciones que 
+                rompieron con la estructura tradicional del pop. Se introdujeron cintas invertidas, efectos, superposiciones y 
+                texturas inéditas. La composición adquirió una profundidad conceptual orientada a la experimentación.
+              </p>
+              <p class="fs-5 timelime-text">
+                La publicación de Revolver marcó una ruptura artística con letras más filosóficas, armonías audaces y estructuras 
+                no convencionales. La crítica reconoció el salto creativo como una redefinición del lenguaje musical contemporáneo. 
+                El álbum se convirtió en referencia para movimientos posteriores.
+              </p>
+              <p class="fs-5 timelime-text">
+                Al cerrar el año, quedaba claro que la etapa del entretenimiento masivo había terminado y comenzaba una fase 
+                introspectiva y revolucionaria. La exploración sonora superó la lógica comercial y apuntó hacia una visión más 
+                intelectual del arte. Este ciclo selló el tránsito hacia la reinvención total.
+              </p>
+            </div><!-- 9-->
+          </div><!-- 10-->
+        </div><!-- 7-->
+
+        <div class="row g-4 mt-5"><!-- 3-->
+
+          <div class="col-md-7 d-flex flex-column"><!-- 4-->
+            <div class="align-items-start"><!-- 5-->
+              <h1 class="display-4 fw-bold mb1">1969</h1>
+              <h4 class="fs-5 mb-0">Cavern Club, Liverpool</h4> 
+              <p class="fs-6 mb-0">Inglaterra</p>
+            </div><!-- 5-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 6-->
+              <p class="fs-5 timelime-text">
+                A inicios de 1969, el grupo volvió simbólicamente a ese refugio subterráneo donde todo había empezado. 
+                Entre ecos viejos y paredes sudadas de memoria, intentaron reconectar con el impulso que los lanzó al estrellato. 
+                El ambiente olía a historia… y a tensión contenida 
+                
+              </p>
+              <p class="fs-5 timelime-text">
+                En aquel rincón cargado de nostalgia, pasaban horas revisando su propia esencia. Era como auditar su pasado para 
+                ver si quedaba algo que aún pudiera optimizarse. Cada mirada era un diagnóstico emocional, cada acorde un reporte 
+                del desgaste interno.
+              </p>
+              <p class="fs-5 timelime-text">
+                Meses después, la vibra cambió hacia un espacio urbano lleno de color, libertad y mentes expansivas. 
+                Esa ciudad abierta al océano los empapó de nuevas ideas y los empujó a pensar fuera del marco tradicional. 
+                Allí, respiraron creatividad sin frenos.
+              </p>
+            </div><!-- 6-->
+          </div><!-- 4-->
+          <div class="col-md-5"><img src="../assets/img-iconos/TheBeatles/timeline/TL6.1.jpg" class="img-thumbnail" alt="..."></div>
+        </div><!-- 3-->
+
+        <div class="row g-4 mt-5"><!-- 7-->
+          <div class="col-md-5"><img src="." class="img-thumbnail" alt="..."></div>
+
+          <div class="col-md-7 d-flex flex-column"><!-- 10-->
+            <div class="align-items-start"><!-- 8-->
+              <h1 class="display-4 fw-bold mb-1">1970</h1> 
+              <h4 class="fs-5 mb-0">Haight-Ahbury y Savile Row</h4> 
+              <p class="fs-6 mb-0">San Francisco y Londres</p>
+            </div><!-- 8-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 9-->
+              <p class="fs-5 timelime-text">
+                En sus caminatas por ese barrio bohemio, las melodías se volvieron más profundas, casi contemplativas. 
+                Era como si al rodearse de gente que vivía sin normas, ellos también se concedieran permiso para 
+                cuestionar su propio rumbo.
+              </p>
+              <p class="fs-5 timelime-text">
+                Al llegar 1970, terminaron en un edificio elegante y reservado que se transformó en su última sala de operaciones. 
+                Entre acordes fríos y mañanas grises, se escribían los últimos KPI emocionales de la banda. 
+                Todo sonaba a despedida inevitable.
+              </p>
+              <p class="fs-5 timelime-text">
+                Y en la escena final, sobre aquel tejado que dominaba la ciudad, lanzaron al viento su último manifiesto sonoro. 
+                Fue un cierre icónico, simple y contundente, como un “gracias por todo” elevado directamente al cielo. 
+                Un cierre que sigue latiendo hoy como si fuera ayer.
+            </div><!-- 9-->
+          </div><!-- 10-->
+        </div><!-- 7-->
+
+      </div><!-- 2-->
+    </section><!-- 1-->
+
+
+
+
+    <!-- GALERÍA / CAROUSEL -->
+    <section class="container my-5">
+      <h2 class="fw-bold text-center mb-4">Galería</h2>
+
+      <div id="beatlesCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner beatles-carousel">
+          <div class="carousel-item active">
+            <img src="../assets/img-iconos/TheBeatles/galeria1.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img-iconos/TheBeatles/fondo3.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/bands/beatles3.jpg" class="d-block w-100" alt="">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#beatlesCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#beatlesCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+      </div>
+    </section>
+
+    <script 
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+  </body>
+</html>
