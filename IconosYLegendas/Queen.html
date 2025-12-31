@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="icon" type="image/png" href="../assets/Iconos/vinilo.png">
     <title>Queen</title>
 
     <link 
@@ -19,7 +19,7 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand fs-3 fw-bold text-uppercase" href="index.html#histori"><img src="/assets/Iconos/vinilo.png" alt="Icono History" style="height: 40px; margin-right: 10px;">Historia del rock </a>
+        <a class="navbar-brand fs-3 fw-bold text-uppercase" href="index.html#histori"><img src="../assets/Iconos/vinilo.png" alt="Icono History" style="height: 40px; margin-right: 10px;">Historia del rock </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,19 +37,19 @@
                 Historia
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="history/50s.html">50s - Los orígenes</a></li>
-                <li><a class="dropdown-item" href="history/60s.html">60s - Explosión Británica</a></li>
-                <li><a class="dropdown-item" href="history/70s.html">70s - La Era Dorada</a></li>
-                <li><a class="dropdown-item" href="history/80s.html">80s - Reino del Hard y Metal</a></li>
-                <li><a class="dropdown-item" href="history/90s.html">90s - Crunge y rebeldía alternativa</a></li>
-                <li><a class="dropdown-item" href="history/2000s.html">2000s - El Renacimiento</a></li>
-                <li><a class="dropdown-item" href="history/2010s.html">2010s - La Era Digital</a></li>
+                <li><a class="dropdown-item" href="../history/50s.html">50s - Los orígenes</a></li>
+                <li><a class="dropdown-item" href="../history/60s.html">60s - Explosión Británica</a></li>
+                <li><a class="dropdown-item" href="../history/70s.html">70s - La Era Dorada</a></li>
+                <li><a class="dropdown-item" href="../history/80s.html">80s - Reino del Hard y Metal</a></li>
+                <li><a class="dropdown-item" href="../history/90s.html">90s - Crunge y rebeldía alternativa</a></li>
+                <li><a class="dropdown-item" href="../history/2000s.html">2000s - El Renacimiento</a></li>
+                <li><a class="dropdown-item" href="../history/2010s.html">2010s - La Era Digital</a></li>
 
               </ul>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="culture.html">Cultura y estilo</a>
+              <a class="nav-link" href="../culture.html">Cultura y estilo</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -63,8 +63,8 @@
                 <li><a class="dropdown-item" href="../IconosYLegendas/MichaelJackson.html">Michael Jackson</a></li>
                 <li><a class="dropdown-item" href="../IconosYLegendas/SodaStereo.html">Soda Stereo</a></li>
                 <li><a class="dropdown-item" href="../IconosYLegendas/RodStewart.html">Rod Stewart</a></li>
-                <li><a class="dropdown-item" href="IconosYLegendas/HombresG.html">Hombres G</a></li>
-                <li><a class="dropdown-item" href="IconosYLegendas/ThePolice.html">The police</a></li>
+                <li><a class="dropdown-item" href="../IconosYLegendas/HG.html">Hombres G</a></li>
+                <li><a class="dropdown-item" href="../IconosYLegendas/ThePolice.html">The police</a></li>
                 <li><a class="dropdown-item" href="../IconosYLegendas/Madonna.html">Madonna</a></li>
                 <li><a class="dropdown-item" href="../IconosYLegendas/TheRollingStones.html">The Rolling Stones</a></li>
                 <li><a class="dropdown-item" href="../IconosYLegendas/CyndiLauper.html">Cyndi Lauper</a></li>
@@ -75,7 +75,7 @@
             
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="../contact.html">Contacto</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -90,94 +90,509 @@
 
 
     <!-- HERO -->
-    <header class="queen-hero d-flex align-items-center">
+    <header class="hero-section d-flex align-items-center">
       <div class="container text-white text-center">
-        <img src="../assets/img-iconos/Queen/queentip.png" class="img-fluid w-100">
-        <p class="lead">La banda que revolucionó el mundo</p>
+        <img src="../assets/img-iconos/Queen/queentip.png" alt="Queen Logo" class="hero-logo mb-4">
+        <p class="lead">Bohemian Rhapsody</p>
       </div>
     </header>
 
     <!-- SECCIÓN BIO + FOTO -->
     <section class="container my-5">
-      <div class="row align-items-center g-4">
+      <div class="row align-items-start g-4">
         <div class="col-md-5">
-          <img src="../assets/img-iconos/TheBeatles/fondo2.jpg" class="img-fluid rounded shadow" alt="The Beatles">
+
+          <div id="carouselExample" class="carousel slide media-carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/img-iconos/Queen/carousel1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img-iconos/Queen/carousel3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img-iconos/Queen/carousel2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img-iconos/Queen/carousel4.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
         </div>
 
         <div class="col-md-7">
           <h2 class="fw-bold mb-3">Acerca de...</h2>
           <p class="fs-5">
-            Queen lo mejor del momento
+            Queen es una banda de rock británica formada en Londres en 1970. La banda está compuesta por el vocalista Freddie Mercury, 
+            el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Son conocidos por su estilo musical ecléctico, 
+            que combina elementos de rock, pop, ópera y teatro. A lo largo de su carrera, Queen ha lanzado numerosos álbumes exitosos y 
+            ha producido una serie de éxitos icónicos, como "Bohemian Rhapsody", "We Will Rock You", "We Are the Champions" y "Somebody to Love". 
+            Su música se caracteriza por armonías vocales complejas, riffs de guitarra distintivos y letras memorables.
+            La banda ha sido reconocida por su innovación en la producción musical y sus actuaciones en vivo enérgicas y teatrales. 
+            Queen ha dejado un legado duradero en la historia del rock y sigue siendo una de las bandas más influyentes y queridas en la música popular.
+
           </p>
         </div>
       </div>
     </section>
 
-    <!-- GALERÍA / CAROUSEL -->
-    <section class="container my-5">
-      <h2 class="fw-bold text-center mb-4">Galería</h2>
-
-      <div id="beatlesCarousel" class="carousel slide" data-bs-ride="carousel">
-
-        <div class="carousel-inner beatles-carousel">
-          <div class="carousel-item active">
-            <img src="../assets/img-iconos/TheBeatles/fondo1.jpg" class="d-block w-100" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="../assets/img-iconos/TheBeatles/fondo3.jpg" class="d-block w-100" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="/assets/bands/beatles3.jpg" class="d-block w-100" alt="">
-          </div>
-        </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#beatlesCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-
-        <button class="carousel-control-next" type="button" data-bs-target="#beatlesCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </button>
-
-      </div>
-    </section>
+    
 
     <!-- INTEGRANTES -->
     <section class="container my-5">
       <h2 class="fw-bold text-center mb-4">Integrantes</h2>
 
-      <div class="row text-center g-4 beatles-members">
+      <div class="row text-center g-4 police-members justify-content-center">
 
         <div class="col-md-3">
-          <img src="/assets/bands/john.jpg" class="member-img rounded-circle" alt="">
-          <h5 class="mt-3">John Lennon</h5>
+          <img src="../assets/img-iconos/Queen/freddie.jpg" class="member-img rounded-circle" alt="">
+          <h5 class="mt-3">Freddie Mercury</h5>
         </div>
 
         <div class="col-md-3">
-          <img src="/assets/bands/paul.jpg" class="member-img rounded-circle" alt="">
-          <h5 class="mt-3">Paul McCartney</h5>
+          <img src="../assets/img-iconos/Queen/Brian.jpg" class="member-img rounded-circle" alt="">
+          <h5 class="mt-3">Brian May</h5>
         </div>
 
         <div class="col-md-3">
-          <img src="/assets/bands/george.jpg" class="member-img rounded-circle" alt="">
-          <h5 class="mt-3">George Harrison</h5>
+          <img src="../assets/img-iconos/Queen/roger.jpg" class="member-img rounded-circle" alt="">
+          <h5 class="mt-3">Roger Taylor</h5>
         </div>
-
         <div class="col-md-3">
-          <img src="/assets/bands/ringo.jpg" class="member-img rounded-circle" alt="">
-          <h5 class="mt-3">Ringo Starr</h5>
+          <img src="../assets/img-iconos/Queen/jhon.jpg" class="member-img rounded-circle" alt="">
+          <h5 class="mt-3">John Deacon</h5>
         </div>
+        
 
       </div>
     </section>
 
-    <!-- TEMAS POPULARES -->
-    <section class="container my-5">
-      <h2 class="fw-bold text-center mb-4">Canciones icónicas</h2>
 
-      <ul class="list-group list-group-flush fs-5 beatles-songs">
-        <!-- Rellena tú -->
-      </ul>
+    <!-- TEMAS POPULARES -->
+    <section class="container my-5"><!-- 1-->
+      <h2 class="fw-bold text-center mb-4">Timeline</h2>
+      <div class="container"><!-- 2-->
+        
+        <div class="row g-4 mt-5"><!-- 3-->
+
+          <div class="col-md-7 d-flex flex-column"><!-- 4-->
+            <div class="align-items-start"><!-- 5-->
+              <h1 class="display-4 fw-bold mb1">1970</h1>
+              <h4 class="fs-5 mb-0">Londres</h4> 
+              <p class="fs-6 mb-0">Reino Unido</p>
+            </div><!-- 5-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 6-->
+              <p class="fs-5 timelime-text">
+                Brian May y Roger Taylor iniciaron el proyecto buscando un rock ambicioso que fusionara ópera y experimentación 
+                sonora tras su banda previa. La llegada de Freddie Mercury resultó crucial, transformando esa visión inicial en 
+                una propuesta artística única e inigualable. Juntos cimentaron las bases de un sonido grandilocuente que definiría su futuro legado musical.
+              </p>
+              <p class="fs-5 timelime-text">
+                Mercury dotó al grupo de identidad, sugiriendo el nombre "Queen" y su estética. Su visión teatral convirtió el 
+                experimento en un concepto definido y provocador. La banda adoptó así una postura desafiante en la vibrante escena londinense.
+              </p>
+              <p class="fs-5 timelime-text">
+                La formación clásica se cerró con John Deacon, quien aportó estabilidad rítmica. Su bajo melódico equilibró el sonido, 
+                consolidando la alineación definitiva del grupo. Con los cuatro miembros, alcanzaron la cohesión necesaria para hacer historia.
+              </p>
+            </div><!-- 6-->
+          </div><!-- 4-->
+          <div class="imagen-timeline col-md-5"><img src="../assets/img-iconos/Queen/timeline/TL1.1.jpg" class="img-thumbnail" alt="..."></div>
+        </div><!-- 3-->
+
+        <!-- --------------------------------------------------------- --><!-- --------------------------------------------------------- -->
+        <div class="row g-4 mt-5"><!-- 7-->
+          <div class="imagen-timeline col-md-5"><img src="../assets/img-iconos/Queen/timeline/TL1.2.jpg" class="img-thumbnail" alt="..."></div>
+
+          <div class="col-md-7 d-flex flex-column"><!-- 10-->
+            <div class="align-items-start"><!-- 8-->
+              <h1 class="display-4 fw-bold mb-1">1973</h1> 
+              <h4 class="fs-5 mb-0">Truro</h4> 
+              <p class="fs-6 mb-0">Reino Unido</p>
+            </div><!-- 8-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 9-->
+              <p class="fs-5 timelime-text">
+                Londres fue su escenario principal, donde ensayaron y tocaron en pequeños locales. 
+                Cada actuación en vivo servía para pulir su estilo y ganar confianza escénica. 
+                La ciudad fue testigo del perfeccionamiento técnico durante sus primeros pasos.
+              </p>
+              <p class="fs-5 timelime-text">
+                Preparando su debut, experimentaron con armonías vocales y estructuras complejas. 
+                Buscaban una sonoridad majestuosa que rompiera los moldes del rock tradicional. 
+                Este trabajo inicial definió la riqueza musical de su futura discografía.
+              </p>
+              <p class="fs-5 timelime-text">
+                Truro les brindó un refugio tranquilo para afinar ideas lejos del ruido urbano. 
+                Allí se centraron en los detalles, cimentando el estilo que conquistaría el mundo. 
+                Fue un periodo vital de introspección antes de lanzarse al estrellato.
+              </p>
+            </div><!-- 9-->
+          </div><!-- 10-->
+        </div><!-- 7-->
+
+        <div class="row g-4 mt-5"><!-- 3-->
+
+          <div class="col-md-7 d-flex flex-column"><!-- 4-->
+            <div class="align-items-start"><!-- 5-->
+              <h1 class="display-4 fw-bold mb1">1975</h1>
+              <h4 class="fs-5 mb-0">Londres</h4> 
+              <p class="fs-6 mb-0">Reino Unido</p>
+            </div><!-- 5-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 6-->
+              <p class="fs-5 timelime-text">
+                Con A Night at the Opera, la banda redefinió los límites del rock y su ambición. 
+                Londres sirvió como laboratorio donde esa revolución operística cobró vida y forma. 
+                Transformaron su creatividad desbordante en una obra maestra atemporal.
+              </p>
+              <p class="fs-5 timelime-text">
+                La capital vio consolidarse su identidad bajo el liderazgo absoluto de Mercury. 
+                Dejaron de solo experimentar para dominar la escena con total autoridad artística. 
+                El grupo alcanzó una madurez que los separó del resto de sus contemporáneos.
+              </p>
+              <p class="fs-5 timelime-text">
+                Para 1976 llenaban recintos históricos, priorizando una puesta en escena vital. 
+                El rock británico entró en una nueva era teatral gracias a su estética única. 
+                La imagen se volvió tan trascendental como su propia propuesta musical.
+              </p>
+            </div><!-- 6-->
+          </div><!-- 4-->
+          <div class="imagen-timeline col-md-5"><img src="../assets/img-iconos/Queen/timeline/TL2.1.jpg" class="img-thumbnail" alt="..."></div>
+        </div><!-- 3-->
+
+        <div class="row g-4 mt-5"><!-- 7-->
+          <div class="imagen-timeline col-md-5"><img src="../assets/img-iconos/Queen/timeline/TL2.2.jpg" class="img-thumbnail" alt="..."></div>
+          <div class="col-md-7 d-flex flex-column"><!-- 10-->
+
+            <div class="align-items-start"><!-- 8-->
+              <h1 class="display-4 fw-bold mb-1">1977</h1> 
+              <h4 class="fs-5 mb-0">Paris</h4> 
+              <p class="fs-6 mb-0">Francia</p>
+            </div><!-- 8-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 9-->
+              <p class="fs-5 timelime-text">
+                París marcó su consagración europea, triunfando fuera del territorio británico. 
+                La devoción del público confirmó que su música cruzaba cualquier frontera cultural. 
+                Queen demostró allí que su impacto no conocía límites geográficos.
+              </p>
+              <p class="fs-5 timelime-text">
+                Perfeccionaron su directo, diseñando cada concierto como una experiencia total. 
+                Eliminaron cualquier improvisación en favor de una ejecución técnica impoluta. 
+                Cada show se convirtió en una demostración milimétrica de poder y precisión.
+              </p>
+              <p class="fs-5 timelime-text">
+                Al cerrar 1977, ya eran una potencia internacional entre los gigantes del género. 
+                El mito comenzaba a construirse sobre cimientos sólidos de éxito y popularidad. 
+                Se habían establecido firmemente en la cima del rock mundial.
+              </p>
+            </div><!-- 9-->
+          </div><!-- 10-->
+        </div><!-- 7-->
+
+
+        <div class="row g-4 mt-5"><!-- 3-->
+
+          <div class="col-md-7 d-flex flex-column"><!-- 4-->
+            <div class="align-items-start"><!-- 5-->
+              <h1 class="display-4 fw-bold mb1">1981</h1>
+              <h4 class="fs-5 mb-0">Río de Janeiro</h4> 
+              <p class="fs-6 mb-0">Brasil</p>
+            </div><!-- 5-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 6-->
+              <p class="fs-5 timelime-text">
+                A inicios de los ochenta, la banda ascendió a una liga superior con un estilo directo. 
+                Sus composiciones se volvieron potentes himnos diseñados para colmar estadios. 
+                El dominio absoluto del directo se transformó en su fortaleza más indiscutible.
+              </p>
+              <p class="fs-5 timelime-text">
+                Río de Janeiro marcó un hito monumental en 1985 ante multitudes masivas. Aquel evento consolidó 
+                su estatus planetario y demostró su autoridad escénica. Pocos grupos lograban controlar audiencias de tal magnitud con esa maestría.
+              </p>
+              <p class="fs-5 timelime-text">
+                Freddie alcanzó su cima carismática, equilibrando cálculo y libertad total. Cada gesto suyo 
+                invitaba al público a dejar de ser espectador para participar. Logró una comunión única donde la audiencia era parte vital del show.
+              </p>
+            </div><!-- 6-->
+          </div><!-- 4-->
+          <div class="imagen-timeline col-md-5"><img src="../assets/img-iconos/Queen/timeline/TL3.1.jpg" class="img-thumbnail" alt="..."></div>
+        </div><!-- 3-->
+
+        <div class="row g-4 mt-5"><!-- 7-->
+          <div class="imagen-timeline col-md-5"><img src="../assets/img-iconos/Queen/timeline/TL3.2.jpg" class="img-thumbnail" alt="..."></div>
+          <div class="col-md-7 d-flex flex-column"><!-- 10-->
+            <div class="align-items-start"><!-- 8-->
+              <h1 class="display-4 fw-bold mb-1">1986</h1> 
+              <h4 class="fs-5 mb-0">Budapest</h4> 
+              <p class="fs-6 mb-0">Hungría</p>
+            </div><!-- 8-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 9-->
+              <p class="fs-5 timelime-text">
+                Budapest simbolizó un hito histórico al cruzar el Telón de Acero en la Guerra Fría. Rompieron barreras 
+                políticas infranqueables uniendo al público con su arte. Su música demostró ser un lenguaje universal 
+                más fuerte que cualquier frontera.
+              </p>
+              <p class="fs-5 timelime-text">
+                Las giras de esta época fueron demostraciones de precisión técnica absoluta. Sonido, imagen y narrativa 
+                operaban como una unidad indivisible y perfecta. No existía margen para el error en un espectáculo ejecutado sin concesiones.
+              </p>
+              <p class="fs-5 timelime-text">
+                Esta etapa los consagró como una fuerza irrepetible en los escenarios mundiales. Su legado 
+                trascendió los discos para centrarse en la experiencia en vivo. El espectáculo mismo se 
+                transformó en un capítulo vibrante de la historia del rock.
+              </p>
+            </div><!-- 9-->
+          </div><!-- 10-->
+        </div><!-- 7-->
+
+        <div class="row g-4 mt-5"><!-- 3-->
+
+          <div class="col-md-7 d-flex flex-column"><!-- 4-->
+            <div class="align-items-start"><!-- 5-->
+              <h1 class="display-4 fw-bold mb1">1987</h1>
+              <h4 class="fs-5 mb-0">Montreux</h4> 
+              <p class="fs-6 mb-0">Suiza</p>
+            </div><!-- 5-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 6-->
+              <p class="fs-5 timelime-text">
+                A finales de la década iniciaron una fase de profunda introspección y madurez artística. 
+                Aunque su energía vital permanecía intacta, el enfoque creativo se volvió mucho más deliberado. 
+                Cada decisión musical cargaba ahora con un peso definitivo y trascendental.
+              </p>
+              <p class="fs-5 timelime-text">
+                Montreux emergió como su refugio esencial, brindándoles calma y control absoluto en el estudio. 
+                El entorno sereno les permitió trabajar con libertad, puliendo obras de una profundidad inédita. 
+                Allí encontraron la paz necesaria para plasmar emociones complejas en su música.
+              </p>
+              <p class="fs-5 timelime-text">
+                La producción sonora alcanzó cotas de excelencia técnica y una precisión extraordinaria. 
+                Construían cada tema capa por capa, sin permitir concesiones y cuidando cada detalle al máximo. 
+                La vasta experiencia acumulada se reflejaba claramente en la sofisticación de los arreglos.
+              </p>
+            </div><!-- 6-->
+          </div><!-- 4-->
+          <div class="imagen-timeline col-md-5"><img src="../assets/img-iconos/Queen/timeline/TL4.1.jpg" class="img-thumbnail" alt="..."></div>
+        </div><!-- 3-->
+
+        <div class="row g-4 mt-5"><!-- 7-->
+          <div class="imagen-timeline col-md-5"><img src="../assets/img-iconos/Queen/timeline/TL4.2.jpg" class="img-thumbnail" alt="..."></div>
+          <div class="col-md-7 d-flex flex-column"><!-- 10-->
+            <div class="align-items-start"><!-- 8-->
+              <h1 class="display-4 fw-bold mb-1">1991</h1> 
+              <h4 class="fs-5 mb-0">Barcelona</h4> 
+              <p class="fs-6 mb-0">España</p>
+            </div><!-- 8-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 9-->
+              <p class="fs-5 timelime-text">
+                Barcelona simbolizó la fusión suprema entre el rock y la ópera mediante la unión con Caballé. 
+                Esta colaboración audaz abrió territorios inexplorados, rompiendo barreras estilísticas convencionales. 
+                Fue una declaración de ambición ilimitada que redefinió los géneros musicales.
+              </p>
+              <p class="fs-5 timelime-text">
+                Mercury mostró una entrega absoluta al arte, dotando a su voz de una intensidad conmovedora. 
+                Sus interpretaciones ganaron en humanidad, transmitiendo una urgencia y verdad desgarradoras. 
+                Cada nota cantada reflejaba la pasión inagotable de un artista en su plenitud.
+              </p>
+              <p class="fs-5 timelime-text">
+                El ciclo concluyó con una sensación de culminación creativa, ajenos a las modas pasajeras. 
+                Ya no buscaban validación externa, sino cerrar su historia bajo sus propios términos artísticos. 
+                Escribieron así su epílogo final con una dignidad y grandeza inigualables.
+              </p>
+            </div><!-- 9-->
+          </div><!-- 10-->
+        </div><!-- 7-->
+
+        <div class="row g-4 mt-5"><!-- 3-->
+
+          <div class="col-md-7 d-flex flex-column"><!-- 4-->
+            <div class="align-items-start"><!-- 5-->
+              <h1 class="display-4 fw-bold mb1">1992</h1>
+              <h4 class="fs-5 mb-0">Múnich</h4> 
+              <p class="fs-6 mb-0">Alemania</p>
+            </div><!-- 5-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 6-->
+              <p class="fs-5 timelime-text">
+                Tras cesar su actividad, la música de Queen trascendió hacia una dimensión histórica. 
+                Su obra dejó de ser novedad para leerse desde la memoria colectiva y el legado perdurable. 
+                El impacto de sus creaciones se volvió atemporal, superando la inmediatez del momento.
+              </p>
+              <p class="fs-5 timelime-text">
+                Múnich quedó grabada como el corazón creativo de sus últimos años de trabajo en el estudio. 
+                Allí gestaron piezas complejas, vinculando la ciudad a su etapa más emocional y profunda. 
+                Aquellos muros guardaron para siempre la esencia de su producción final.
+              </p>
+              <p class="fs-5 timelime-text">
+                La figura de Mercury se transformó en un mito cultural de inmensas proporciones. Su voz adquirió un 
+                carácter casi sagrado, dotando a cada canción de una carga emotiva renovada. Los seguidores comenzaron 
+                a venerar su legado artístico como un tesoro inagotable.
+              </p>
+            </div><!-- 6-->
+          </div><!-- 4-->
+          <div class="imagen-timeline col-md-5"><img src="../assets/img-iconos/Queen/timeline/TL5.1.jpg" class="img-thumbnail" alt="..."></div>
+        </div><!-- 3-->
+
+        <div class="row g-4 mt-5"><!-- 7-->
+          <div class="imagen-timeline col-md-5"><img src="../assets/img-iconos/Queen/timeline/TL5.2.jpg" class="img-thumbnail" alt="..."></div>
+          <div class="col-md-7 d-flex flex-column"><!-- 10-->
+            <div class="align-items-start"><!-- 8-->
+              <h1 class="display-4 fw-bold mb-1">1997</h1> 
+              <h4 class="fs-5 mb-0">Buenos Aires</h4> 
+              <p class="fs-6 mb-0">Argentina</p>
+            </div><!-- 8-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 9-->
+              <p class="fs-5 timelime-text">
+                Buenos Aires encarnó la devoción inquebrantable del público latinoamericano hacia el grupo. La intensa conexión 
+                demostró que su mensaje superaba cualquier barrera idiomática o generacional. La lealtad de esta audiencia 
+                confirmó la universalidad absoluta de su propuesta.
+              </p>
+              <p class="fs-5 timelime-text">
+                El catálogo cobró nueva vida mediante homenajes y reediciones que ampliaron su vasto alcance. La banda dejó 
+                de existir solo en el presente para proyectarse hacia la eternidad musical. Su repertorio se revitalizó, 
+                asegurando su vigencia para las futuras generaciones.
+              </p>
+              <p class="fs-5 timelime-text">
+                Esta fase los consolidó definitivamente como un patrimonio musical global e indiscutible. Trascendieron 
+                su estatus de banda para convertirse en un referente cultural de primer orden. Lejos de ser un final, 
+                aquello supuso la consagración absoluta de su leyenda.
+              </p>
+            </div><!-- 9-->
+          </div><!-- 10-->
+        </div><!-- 7-->
+
+        <div class="row g-4 mt-5"><!-- 3-->
+
+          <div class="col-md-7 d-flex flex-column"><!-- 4-->
+            <div class="align-items-start"><!-- 5-->
+              <h1 class="display-4 fw-bold mb1">1998</h1>
+              <h4 class="fs-5 mb-0">Barcelona</h4> 
+              <p class="fs-6 mb-0">España</p>
+            </div><!-- 5-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 6-->
+              <p class="fs-5 timelime-text">
+                La banda resurgió en Europa con una energía vibrante, consolidando su legado ante nuevas generaciones. 
+                Barcelona fue el epicentro donde sus clásicos resonaron con fuerza renovada y gran emotividad. 
+                Aquellos conciertos marcaron un hito decisivo, fusionando la nostalgia con el presente.
+                
+              </p>
+              <p class="fs-5 timelime-text">
+                Centraron sus esfuerzos en giras que mezclaban gran espectáculo visual con una solemne reverencia histórica. 
+                Wembley destacó por su majestuosidad, logrando una conexión masiva e inmediata con las multitudes. 
+                Cada interpretación fue diseñada meticulosamente para ofrecer un viaje emocional inolvidable.
+              </p>
+              <p class="fs-5 timelime-text">
+                May y Taylor revitalizaron los éxitos con arreglos que aportaron un aire fresco y contemporáneo. 
+                La química intacta del grupo demostró que su historia musical estaba lejos de concluir. Cada nota 
+                ejecutada celebraba el virtuosismo técnico y la pasión que definieron su sonido.
+              </p>
+            </div><!-- 6-->
+          </div><!-- 4-->
+          <div class="imagen-timeline col-md-5"><img src="../assets/img-iconos/Queen/timeline/TL6.1.jpg" class="img-thumbnail" alt="..."></div>
+        </div><!-- 3-->
+
+        <div class="row g-4 mt-5"><!-- 7-->
+          <div class="imagen-timeline col-md-5"><img src="../assets/img-iconos/Queen/timeline/TL6.2.jpg" class="img-thumbnail" alt="..."></div>
+
+          <div class="col-md-7 d-flex flex-column"><!-- 10-->
+            <div class="align-items-start"><!-- 8-->
+              <h1 class="display-4 fw-bold mb-1">2000</h1> 
+              <h4 class="fs-5 mb-0">Wembley, Londres</h4> 
+              <p class="fs-6 mb-0">Reino Unido</p>
+            </div><!-- 8-->
+
+            <div class="d-flex flex-column justify-content-center h-100"><!-- 9-->
+              <p class="fs-5 timelime-text">
+                Aunque ausente, la figura de Mercury inspiró cada velada a través de grabaciones y emotivos homenajes. 
+                Su inmensa sombra artística se sentía en el escenario y en la devoción incondicional del público. 
+                Lograron mantener viva su esencia original sin renunciar a la evolución moderna.
+              </p>
+              <p class="fs-5 timelime-text">
+                La repercusión de estas giras reafirmó su estatus como un fenómeno global indiscutible y vigente. 
+                La crítica alabó su capacidad para fusionar el despliegue visual con la excelencia sonora absoluta. 
+                Estas presentaciones establecieron un nuevo estándar para los grandes espectáculos de rock.
+              </p>
+              <p class="fs-5 timelime-text">
+                Este período selló una etapa de gloria tardía, consolidándolos como íconos eternos de la música. 
+                Cada concierto sirvió como recordatorio de su influencia perdurable en la cultura pop mundial. 
+                Dejaron así una huella imborrable que trasciende el tiempo y las generaciones.
+            </div><!-- 9-->
+          </div><!-- 10-->
+        </div><!-- 7-->
+
+      </div><!-- 2-->
+    </section><!-- 1-->
+
+    <section class="container my-5 top-tracks">
+      <h2 class="fw-bold text-center mb-4">Canciones destacadas</h2>
+
+      <div class="track-item">
+        <div class="track-info">
+          <h2 class="track-title">Radio Ga Ga</h2>
+          <h3 class="track-year">1984</h3>
+        </div>
+
+        <div class="track-cover">
+          <img src="../assets/img-iconos/Queen/song1.jpg" alt="Portada de la canción">
+          
+        </div>
+      </div>
+
+      <div class="track-item">
+        <div class="track-info">
+          <h2 class="track-title">I want to break free</h2>
+          <h3 class="track-year">1984</h3>
+        </div>
+
+        <div class="track-cover">
+          <img src="../assets/img-iconos/Queen/song2.jpg" alt="Portada de la canción">
+          
+        </div>
+      </div>
+
+      <div class="track-item">
+        <div class="track-info">
+          <h2 class="track-title">Under Pressure</h2>
+          <h3 class="track-year">1982</h3>
+        </div>
+
+        <div class="track-cover">
+          <img src="../assets/img-iconos/Queen/sond3.jpg" alt="Portada de la canción">
+        </div>
+      </div>
+
+      <div class="track-item">
+        <div class="track-info">
+          <h2 class="track-title">Bohemian Rhapsody</h2>
+          <h3 class="track-year">1975</h3>
+        </div>
+
+        <div class="track-cover">
+          <img src="../assets/img-iconos/Queen/song4.jpg" alt="Portada de la canción">
+          
+        </div>
+      </div>
+      <a href="https://www.instagram.com/officialqueenmusic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="instagram-link d-block text-center mt-4">
+        <img src="../assets/instagram.png" alt="Instagram"> @officialqueenmusic      
+      </a>
+
+
     </section>
 
     <script 

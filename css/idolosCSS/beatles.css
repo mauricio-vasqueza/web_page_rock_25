@@ -138,10 +138,10 @@ p.lead{
 
 /* ===== INTEGRANTES ===== */
 .member-img {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
-  border: 4px solid #d9c27f; /* dorado envejecido */
+  border: 4px solid #ba5531; /* dorado envejecido */
   box-shadow: 0 4px 10px rgba(0,0,0,0.25);
 }
 
@@ -180,4 +180,62 @@ section.container {
 }
 h1 {
   color : green;
+}
+
+.imagen-timeline img {
+  border: 4px solid #8b4f39;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.55);
+}
+
+
+.top-tracks {
+  max-width: 800px;
+  margin: auto;
+}
+
+.track-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.track-title {
+  margin: 0;
+  font-weight: 500;
+  color: #ba5531 !important;
+}
+
+.track-cover {
+  text-align: center;
+}
+
+.track-cover img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.track-year {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.instagram-link {
+    color: #d9c27f;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.instagram-link img {
+  height: 28px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.instagram-link:hover {
+  color: #8b4f39;
 }

@@ -105,80 +105,92 @@
 
 
 
+
+
 /* ===== HERO ===== */
 .hero-section {
-    height: 65vh;
+    height: 55vh;
     padding-top: 5rem;
-    /* Degradado basado en el cielo de la imagen: Púrpura arriba -> Naranja abajo */
+    /* Degradado estilo "Synchronicity" — azul eléctrico + amarillo Police */
     background: linear-gradient(
-        rgba(106, 13, 173, 0.85),  /* Púrpura superior del cielo */
-        rgba(255, 115, 0, 0.75)    /* Naranja intenso del atardecer */
+        rgba(0, 90, 150, 0.80),   /* Azul eléctrico dominante */
+        rgba(255, 212, 0, 0.75)  /* Amarillo vibrante Police */
     ),
-    url('../../assets/img-iconos/Queen/fondo2.jpg');
+    url('../../assets/img-iconos/ThePolice/heroimage.jpg');
 
     background-size: cover;
     background-position: center;
 }
-.hero-logo{
-  width: 350px;
-  filter: drop-shadow(0 0 0px #FFD700); /* Resplandor dorado real */
-}
 
 /* Texto principal del hero */
 p.lead {
-  color: #FFEC00;  /* Amarillo sol brillante (como el foco de luz) */
+  color: #F5F7FA;                     /* Blanco casi puro */
   font-style: italic;
-  text-shadow: 2px 2px 8px #000000; /* Negro puro para contrastar como la silueta */
+  text-shadow: 2px 2px 8px #000;      /* Más suave, más 80's */
   font-size: 1.4rem;
   font-weight: 650;
 }
 
-/* ===== CAROUSEL ===== */
+
+
+/* ===== CAROUSEL (Estética New Wave) ===== */
 .media-carousel img {
   height: 420px;
   object-fit: cover;
   border-radius: 12px;
-  border: 3px solid #FFD700; /* Dorado real (Queen) */
-  box-shadow: 0 0 12px rgba(255, 69, 0, 0.7); /* Resplandor naranja atardecer */
+  border: 3px solid #FFD400;            /* Amarillo Police */
+  box-shadow: 0 0 12px rgba(0, 122, 204, 0.6); /* Glow azul */
 }
+
+
 
 /* ===== INTEGRANTES / MIEMBROS ===== */
 .member-img {
   width: 200px;
   height: 200px;
   object-fit: cover;
-  border: 4px solid rgba(255, 165, 0, 0.6); /* Naranja del antiguo glow */
-  box-shadow: 0 4px 12px #C71585; /* Rosa/Magenta oscuro del antiguo borde */
-
+  border: 4px solid #007ACC;             /* Azul Police */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.45);
 }
 
-/* ===== FONDO GENERAL ===== */
+/* ===== CANCIONES LIST VERSION THE POLICE ===== */
+.song-list li {
+  background: #E6F1FF;                   /* Azul hielo */
+  border-left: 6px solid #FFD400;        /* Amarillo vibrante */
+  margin-bottom: 6px;
+  padding: 12px;
+  color: #0A0A0A;                        /* Negro new wave */
+}
+
+/* ===== FONDO GENERAL (Look The Police) ===== */
 body {
-    background-color: #120505;  /* Marrón muy oscuro/Negro (base del estadio) */
-    background-image: linear-gradient(180deg, #120505 0%, #290820 100%); /* Degradado oscuro cálido */
+    background-color: #0A0A0A; /* Negro profundo */
+    background-image: linear-gradient(180deg, #0A0A0A 0%, #1c1c1c 100%);
     background-attachment: fixed;
-    color: #FFFFFF;
+    color: #E6F1FF;           /* Azul muy claro */
 }
 
-/* Encabezados */
+/* Encabezados con acento Police (azul + amarillo) */
 h2 {
-    color: #FF007F; /* Rosa fuerte (parte superior del degradado de la foto) */
+    color: #FFD400; /* Amarillo Police */
 }
 
 section.container {
-    background-color: rgba(20, 10, 10, 0.75); /* Oscuro semitransparente (silueta) */
+    background-color: rgba(0, 90, 150, 0.10); /* Azul translúcido suave */
     padding: 30px;
     border-radius: 10px;
 }
 
 /* Ejemplo de detalle global */
 h1 {
-  color: #FFC107; /* Amarillo Ámbar */
+  color: #FFD400; /* Amarillo Police */
 }
+
 .imagen-timeline img {
-  border: 4px solid #FF4500; /* Naranja rojizo */
-  box-shadow: 0 4px 12px rgba(255, 215, 0, 0.55);
+  border: 4px solid #FFD400;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.55);
 }
+
 
 .top-tracks {
   max-width: 800px;
@@ -190,13 +202,12 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
-  border-bottom: 1px solid rgba(255, 140, 0, 0.3); /* Línea divisoria naranja sutil */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .track-title {
   margin: 0;
   font-weight: 500;
-  color: #FFD700 !important; /* Dorado clásico */
 }
 
 .track-cover {
@@ -214,11 +225,11 @@ h1 {
   display: block;
   margin-top: 0.4rem;
   font-size: 0.9rem;
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
 .instagram-link {
-    color: #DA70D6; /* Orquídea (tonos púrpuras claros del cielo) */
+    color: #007ACC;
     text-decoration: none;
     font-weight: 500;
     font-size: 1.1rem;
@@ -229,5 +240,5 @@ h1 {
   vertical-align: middle;
 }
 .instagram-link:hover {
-  color: #FFD700; /* Cambio a Dorado al pasar el mouse */
+  color: #FFD400;
 }
