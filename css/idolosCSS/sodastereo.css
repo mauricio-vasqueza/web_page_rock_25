@@ -107,128 +107,133 @@
 
 /* ===== HERO ===== */
 .hero-section {
-    height: 60vh;
+    height: 65vh;
     padding-top: 5rem;
-    /* Degradado basado en el cielo de la imagen: Púrpura arriba -> Naranja abajo */
+    /* Degradado Soda Stereo v2: Azul petróleo -> Verde agua */
     background: linear-gradient(
-        rgba(106, 13, 173, 0.85),  /* Púrpura superior del cielo */
-        rgba(255, 115, 0, 0.75)    /* Naranja intenso del atardecer */
+        rgba(10, 25, 47, 0),   /* Totalmente transparente */
+        rgba(255, 255, 255, 0) /* Totalmente transparente */
     ),
-    url('../../assets/img-iconos/Queen/fondo2.jpg');
+    url('../../assets/img-iconos/SodaStereo/fondosodastereo.jpeg');
 
     background-size: cover;
     background-position: center;
 }
+
 .hero-logo{
-  width: 300px;
-  height: auto;
-  margin-bottom: 20px;
+    width: 350px;
+    filter: drop-shadow(0 0 8px #c03dc7); /* Glow verde neón suave */
 }
 
 /* Texto principal del hero */
 p.lead {
-  color: #FFEC00;  /* Amarillo sol brillante (como el foco de luz) */
-  font-style: italic;
-  text-shadow: 2px 2px 8px #000000; /* Negro puro para contrastar como la silueta */
-  font-size: 1.4rem;
-  font-weight: 650;
+    color: #A7FFEB; /* Verde agua pastel */
+    font-style: italic;
+    text-shadow: 2px 2px 8px #172e94; /* Azul noche profundo */
+    font-size: 1.4rem;
+    font-weight: 650;
 }
 
 /* ===== CAROUSEL ===== */
 .media-carousel img {
-  height: 420px;
-  object-fit: cover;
-  border-radius: 12px;
-  border: 3px solid #FFD700; /* Dorado real (Queen) */
-  box-shadow: 0 0 12px rgba(255, 69, 0, 0.7); /* Resplandor naranja atardecer */
+    height: 420px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #00FFC6; /* Verde neón Soda */
+    box-shadow: 0 0 12px rgba(63, 81, 181, 0.65); /* Azul violáceo synth */
 }
 
 /* ===== INTEGRANTES / MIEMBROS ===== */
 .member-img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border: 4px solid rgba(255, 165, 0, 0.6); /* Naranja del antiguo glow */
-  box-shadow: 0 4px 12px #C71585; /* Rosa/Magenta oscuro del antiguo borde */
-
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid rgba(0, 255, 198, 0.55); /* Verde neón translúcido */
+    box-shadow: 0 4px 12px #3F51B5; /* Azul índigo */
 }
 
 /* ===== FONDO GENERAL ===== */
 body {
-    background-color: #120505;  /* Marrón muy oscuro/Negro (base del estadio) */
-    background-image: linear-gradient(180deg, #120505 0%, #290820 100%); /* Degradado oscuro cálido */
+    background-color: #020617; /* Azul noche absoluta */
+    background-image: linear-gradient(180deg, #020617 0%, #06283D 100%); /* Profundidad fría */
     background-attachment: fixed;
     color: #FFFFFF;
 }
 
 /* Encabezados */
 h2 {
-    color: #FF007F; /* Rosa fuerte (parte superior del degradado de la foto) */
+    color: #64FFDA; /* Verde agua protagonista */
 }
 
 section.container {
-    background-color: rgba(20, 10, 10, 0.75); /* Oscuro semitransparente (silueta) */
+    background-color: rgba(2, 10, 25, 0.78); /* Oscuro frío translúcido */
     padding: 30px;
     border-radius: 10px;
 }
 
 /* Ejemplo de detalle global */
 h1 {
-  color: #FFC107; /* Amarillo Ámbar */
+    color: #00FFC6; /* Verde neón limpio */
 }
+
 .imagen-timeline img {
-  border: 4px solid #FF4500; /* Naranja rojizo */
-  box-shadow: 0 4px 12px rgba(255, 215, 0, 0.55);
+    border: 4px solid #00BFA5; /* Verde agua intenso */
+    box-shadow: 0 4px 12px rgba(100, 255, 218, 0.55); /* Glow acuático */
 }
 
 .top-tracks {
-  max-width: 800px;
-  margin: auto;
+    max-width: 800px;
+    margin: auto;
 }
 
 .track-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 0;
-  border-bottom: 1px solid rgba(255, 140, 0, 0.3); /* Línea divisoria naranja sutil */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(100, 255, 218, 0.28); /* Línea verde sutil */
 }
 
 .track-title {
-  margin: 0;
-  font-weight: 500;
-  color: #FFD700 !important; /* Dorado clásico */
+    margin: 0;
+    font-weight: 500;
+    color: #A7FFEB !important; /* Verde pastel */
 }
 
 .track-cover {
-  text-align: center;
+    text-align: center;
 }
 
 .track-cover img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 6px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
 }
 
 .track-year {
-  display: block;
-  margin-top: 0.4rem;
-  font-size: 0.9rem;
-  opacity: 0.95;
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+    opacity: 0.95;
 }
 
 .instagram-link {
-    color: #DA70D6; /* Orquídea (tonos púrpuras claros del cielo) */
+    color: #7986CB; /* Azul lavanda frío */
     text-decoration: none;
     font-weight: 500;
     font-size: 1.1rem;
 }
+
 .instagram-link img {
-  height: 28px;
-  margin-right: 8px;
-  vertical-align: middle;
+    height: 28px;
+    margin-right: 8px;
+    vertical-align: middle;
 }
+
 .instagram-link:hover {
-  color: #FFD700; /* Cambio a Dorado al pasar el mouse */
+    color: #00FFC6; /* Verde neón Soda */
 }
+
+
+
