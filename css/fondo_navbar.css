@@ -143,3 +143,12 @@ body {
 .container-carousel {
   padding-top: 100px; /* ajusta según la altura de tu navbar, investigado con chatgpt */
 }
+
+.des1 {
+  text-align: justify;
+}
+.img-equal {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
