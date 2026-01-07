@@ -2,10 +2,10 @@ body {
   background: linear-gradient(125deg, #1a1a1a 0%, #A72703 40%, #FCB53B 80%, #2b2b2b 100%);
   color: #FFE797;
   background-attachment: fixed;
-  padding-top: 30px;
+  padding-top: 80px;
 }
 
-/* NAVBAR COLOR GOLDEN  */
+/* NAVBAR    */
 .navbar {
   background-color: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(10px);
@@ -34,7 +34,7 @@ body {
   transform: scale(1.05);
 }
 
-/* --- ENLACES DEL MENÚ --- */
+/* --- ENLACES --- */
 .navbar-nav .nav-link {
   color: #FFE797 !important;
   font-weight: 500;
@@ -110,10 +110,105 @@ body {
   color: #1a1a1a;
   box-shadow: 0 0 12px #FCB53B;
 }
-.galeria-section {
-  padding-top: 10px;
-}
 
 .espacio-vertical{
   margin-top: 3rem;
+}
+
+.intro-title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #FFCC70; 
+  text-shadow: 3px 3px 10px rgba(0,0,0,0.7);
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.intro-title:hover {
+  color: #FFDDA0;
+  transform: scale(1.05);
+}
+
+.subtitulo {
+  font-size: 1.5rem;
+  color: #FFEFBF;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  margin-bottom: 2rem;
+}
+
+
+.intro-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #FFEFBF;
+  background-color: rgba(60, 60, 60, 0.3);
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.intro-text:hover {
+  background-color: rgba(100, 60, 30, 0.2);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+}
+
+
+.img-equal {
+  width: 100%;
+  height: 500px; 
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.img-equal:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+
+
+
+
+
+.follow-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #FFAA33; 
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+  margin-bottom: 1.5rem;
+}
+
+.follow-title:hover {
+  color: #FFD87A;
+}
+
+.instagram-link img,
+.instagram-link i {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  vertical-align: middle;
+  filter: drop-shadow(0 3px 6px rgba(0,0,0,0.5));
+  transition: all 0.3s ease;
+}
+
+.instagram-link:hover img {
+  transform: scale(1.2);
+  filter: drop-shadow(0 6px 12px rgba(0,0,0,0.7));
+}
+
+.instagram-link {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #FFB84D;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.instagram-link:hover {
+  color: #FF5733; 
 }

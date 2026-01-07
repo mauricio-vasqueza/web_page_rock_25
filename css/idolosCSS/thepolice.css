@@ -111,10 +111,9 @@
 .hero-section {
     height: 55vh;
     padding-top: 5rem;
-    /* Degradado estilo "Synchronicity" — azul eléctrico + amarillo Police */
     background: linear-gradient(
-        rgba(0, 90, 150, 0.80),   /* Azul eléctrico dominante */
-        rgba(255, 212, 0, 0.75)  /* Amarillo vibrante Police */
+        rgba(0, 90, 150, 0.80),   
+        rgba(255, 212, 0, 0.75)  
     ),
     url('../../assets/img-iconos/ThePolice/heroimage.jpg');
 
@@ -170,20 +169,17 @@ body {
     color: #E6F1FF;           /* Azul muy claro */
 }
 
-/* Encabezados con acento Police (azul + amarillo) */
 h2 {
-    color: #FFD400; /* Amarillo Police */
+    color: #FFD400; 
 }
 
 section.container {
-    background-color: rgba(0, 90, 150, 0.10); /* Azul translúcido suave */
+    background-color: rgba(0, 90, 150, 0.10); 
     padding: 30px;
     border-radius: 10px;
 }
-
-/* Ejemplo de detalle global */
 h1 {
-  color: #FFD400; /* Amarillo Police */
+  color: #FFD400; 
 }
 
 .imagen-timeline img {

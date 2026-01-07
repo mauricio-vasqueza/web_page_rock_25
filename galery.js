@@ -9,9 +9,9 @@ $(document).ready(function () {
 
     // ---- LAYOUT ----
     thumbnailHeight: 200,
-    thumbnailWidth: "auto",
+    thumbnailWidth: 240,
     galleryMaxRows: 0,
-    thumbnailAlignment: "fillWidth",
+    thumbnailAlignment: "center",
 
     // ---- ESPACIADO ----
     thumbnailL1GutterWidth: 15,

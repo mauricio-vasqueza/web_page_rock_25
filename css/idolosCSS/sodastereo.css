@@ -109,10 +109,9 @@
 .hero-section {
     height: 65vh;
     padding-top: 5rem;
-    /* Degradado Soda Stereo v2: Azul petróleo -> Verde agua */
     background: linear-gradient(
-        rgba(10, 25, 47, 0),   /* Totalmente transparente */
-        rgba(255, 255, 255, 0) /* Totalmente transparente */
+        rgba(10, 25, 47, 0),   
+        rgba(255, 255, 255, 0) 
     ),
     url('../../assets/img-iconos/SodaStereo/fondosodastereo.jpeg');
 
@@ -140,7 +139,7 @@ p.lead {
     object-fit: cover;
     border-radius: 12px;
     border: 3px solid #00FFC6; /* Verde neón Soda */
-    box-shadow: 0 0 12px rgba(63, 81, 181, 0.65); /* Azul violáceo synth */
+    box-shadow: 0 0 12px rgba(63, 81, 181, 0.65); 
 }
 
 /* ===== INTEGRANTES / MIEMBROS ===== */
@@ -148,14 +147,14 @@ p.lead {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border: 4px solid rgba(0, 255, 198, 0.55); /* Verde neón translúcido */
-    box-shadow: 0 4px 12px #3F51B5; /* Azul índigo */
+    border: 4px solid rgba(0, 255, 198, 0.55); 
+    box-shadow: 0 4px 12px #3F51B5; 
 }
 
 /* ===== FONDO GENERAL ===== */
 body {
-    background-color: #020617; /* Azul noche absoluta */
-    background-image: linear-gradient(180deg, #020617 0%, #06283D 100%); /* Profundidad fría */
+    background-color: #020617; 
+    background-image: linear-gradient(180deg, #020617 0%, #06283D 100%); 
     background-attachment: fixed;
     color: #FFFFFF;
 }
@@ -166,19 +165,18 @@ h2 {
 }
 
 section.container {
-    background-color: rgba(2, 10, 25, 0.78); /* Oscuro frío translúcido */
+    background-color: rgba(2, 10, 25, 0.78); 
     padding: 30px;
     border-radius: 10px;
 }
 
-/* Ejemplo de detalle global */
 h1 {
-    color: #00FFC6; /* Verde neón limpio */
+    color: #00FFC6; 
 }
 
 .imagen-timeline img {
-    border: 4px solid #00BFA5; /* Verde agua intenso */
-    box-shadow: 0 4px 12px rgba(100, 255, 218, 0.55); /* Glow acuático */
+    border: 4px solid #00BFA5;
+    box-shadow: 0 4px 12px rgba(100, 255, 218, 0.55);
 }
 
 .top-tracks {

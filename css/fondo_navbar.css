@@ -4,7 +4,7 @@ body {
   background-attachment: fixed;
 }
 
-/* NAVBAR COLOR GOLDEN  */
+/* NAVBAR   */
 .navbar {
   background-color: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(10px);
@@ -33,7 +33,7 @@ body {
   transform: scale(1.05);
 }
 
-/* --- ENLACES DEL MENÚ --- */
+/* --- ENLACES   --- */
 .navbar-nav .nav-link {
   color: #FFE797 !important;
   font-weight: 500;
@@ -143,15 +143,17 @@ body {
 }
 .img-equal {
   width: 100%;
-  height: 600px;
+  height: clamp(300px, 45vw, 600px);
   object-fit: cover;
 }
 
 .imagen-acordeon {
-  height: 500px;
+  width: 100%;
+  height: clamp(260px, 40vw, 500px);
   object-fit: cover;
   border-radius: 12px;
 }
+
 .espacio-vertical{
   margin-top: 3rem;
 }
@@ -168,18 +170,18 @@ body {
 .video-marco {
   width: 100%;
   max-width: 950px;
-  /* Esto asegura que tenga la forma rectangular perfecta de YouTube (16:9) */
+  /* Esto asegura que tenga la forma rectangular perfecta de YouTube*/
   aspect-ratio: 16 / 9; 
   margin: 0 auto;
-  border-radius: 30px; /* Bordes redondeados */
+  border-radius: 30px; /* Bordes */
   overflow: hidden;
-  box-shadow: 0 15px 30px rgba(0,0,0,0.4); /* Sombra elegante */
+  box-shadow: 0 15px 30px rgba(0,0,0,0.4); /* Sombra */
 }
 
 .video-marco iframe {
   width: 100%;
   height: 100%;
-  border: none; /* Quita el borde feo por defecto */
+  border: none; /* Quita el borde feo  */
   display: block;
 }
 .imagen-top5 img {
@@ -209,12 +211,12 @@ body {
   padding-bottom: 2rem;
 }
 
-/* --- ACORDEÓN GENERAL --- */
+/* --- ACORDEÓN --- */
 .accordion-item {
-  background-color: rgba(50, 50, 50, 0.9); /* gris oscuro translúcido */
+  background-color: rgba(50, 50, 50, 0.9); /* gris oscuro  */
   border: 1px solid #FCB53B; /* borde dorado */
   border-radius: 10px;
-  margin-bottom: 1rem; /* espacio uniforme entre items */
+  margin-bottom: 1rem; /* espacio uniforme entre los items */
   box-shadow: 0 4px 12px rgba(0,0,0,0.5);
   transition: all 0.3s ease;
 }
@@ -261,12 +263,13 @@ body {
 
 
 
+
 /* --- PÁRRAFOS --- */
 .accordion-body p {
   margin-bottom: 1rem;
 }
 
-/* --- CARRUSELES DENTRO DEL ACORDEÓN --- */
+/* --- CARRUSELES DENTRO DE MI ACORDEÓN --- */
 .accordion-body .carousel {
   box-shadow: 0 8px 16px rgba(0,0,0,0.6);
   border: 1px solid #FCB53B;
@@ -284,29 +287,30 @@ body {
 
 /* Título principal de la sección */
 .fw-bold.text-center.mb-4 {
-  color: #FFD77A; /* amarillo dorado vibrante */
-  text-shadow: 3px 3px 12px rgba(0,0,0,0.75); /* sombra más profunda y elegante */
-  letter-spacing: 1.2px; /* un poco más de espacio entre letras */
-  font-size: 3rem; /* más grande para destacar */
+  color: #FFD77A; 
+  text-shadow: 3px 3px 12px rgba(0,0,0,0.75); 
+  letter-spacing: 1.2px; 
+  font-size: 3rem; 
   transition: all 0.3s ease;
 }
 
 .textito.fs-5.timelime-text {
-  color: #FFEFD1; /* amarillo crema cálido, más suave que antes */
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.6); /* sombra sutil para resaltar */
-  line-height: 1.75; /* un poco más aire entre líneas */
+  color: #FFEFD1;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6); 
+  line-height: 1.75; 
   transition: all 0.3s ease;
 }
 
 /* Títulos de cada concierto */
 .display-5.fw-bold {
-  color: #FFD77A; /* amarillo dorado más vibrante */
-  text-shadow: 2px 2px 6px rgba(0,0,0,0.7); /* sombra elegante */
+  color: #FFD77A;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
 }
 
 /* Fechas */
 .fs-5.mb-0 {
-  color: #FCB53B; /* dorado más cálido */
+  color: #FCB53B;
   font-weight: 600;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
+
