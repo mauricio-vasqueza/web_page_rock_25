@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type=image/png" href="/assets/Iconos/vinilo.png">
+    <title>Página web</title>
+
+  
+    <link 
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/galeria.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css">
+
+    
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-3 fw-bold text-uppercase" href="index.html#histori"><img src="./assets/Iconos/vinilo.png" alt="Icono History" style="height: 40px; margin-right: 10px;">Historia del rock </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav me-3 mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio  </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="galery.html">Cultura y Estilo</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Íconos y Legendas
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./IconosYLegendas/Queen.html">Queen</a></li>
+                <li><a class="dropdown-item" href="./IconosYLegendas/Beatles.html">The Beatles</a></li>
+                <li><a class="dropdown-item" href="./IconosYLegendas/Aerosmith.html">Aerosmith</a></li>
+                <li><a class="dropdown-item" href="./IconosYLegendas/SodaStereo.html">Soda Stereo</a></li>
+                <li><a class="dropdown-item" href="./IconosYLegendas/ThePolice.html">The Police</a></li>
+
+              </ul>
+            </li>
+
+            
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ===== GALERÍA ===== -->
+    <section class="galeria-section my-5">
+        <div class="container my-5">
+
+            <div id="nanogallery">
+                <a href="./assets/img-culture/galeria/img1.jpg" data-ngthumb="./assets/img-culture/galeria/img1.jpg"></a>
+                <a href="./assets/img-culture/galeria/img2.jpg" data-ngthumb="./assets/img-culture/galeria/img2.jpg"></a>
+                <a href="./assets/img-culture/galeria/img3.jpg" data-ngthumb="./assets/img-culture/galeria/img3.jpg"></a>
+                <a href="./assets/img-culture/galeria/img4.jpg" data-ngthumb="./assets/img-culture/galeria/img4.jpg"></a>
+                <a href="./assets/img-culture/galeria/img5.jpg" data-ngthumb="./assets/img-culture/galeria/img5.jpg"></a>
+                <a href="./assets/img-culture/galeria/img6.jpg" data-ngthumb="./assets/img-culture/galeria/img6.jpg"></a>
+                <a href="./assets/img-culture/galeria/img7.jpg" data-ngthumb="./assets/img-culture/galeria/img7.jpg"></a>
+                <a href="./assets/img-culture/galeria/img8.jpg" data-ngthumb="./assets/img-culture/galeria/img8.jpg"></a>
+                <a href="./assets/img-culture/galeria/img9.jpg" data-ngthumb="./assets/img-culture/galeria/img9.jpg"></a>
+                <a href="./assets/img-culture/galeria/img10.jpg" data-ngthumb="./assets/img-culture/galeria/img10.jpg"></a>
+            </div>
+        
+        </div>
+    </section>
+
+    
+
+    
+    
+    <script 
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+      crossorigin="anonymous">
+    </script>
+
+    <!-- jQuery (obligatorio para nanogallery2) -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- NanoGallery2 -->
+    <script src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
+
+    <script src="./galery.js"></script>
+
+    
+  </body>
+</html>
