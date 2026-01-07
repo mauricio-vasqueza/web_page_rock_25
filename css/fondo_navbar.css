@@ -189,3 +189,124 @@ body {
 .textito {
   text-align: justify;
 }
+.origentitulo {
+  margin-bottom: 2.5rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+
+.des1 {
+  line-height: 1.8;
+  font-size: 1.05rem;
+  margin-bottom: 1.5rem;
+  color: #FFEFD1;
+}
+
+.container-sm {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* --- ACORDEÓN GENERAL --- */
+.accordion-item {
+  background-color: rgba(50, 50, 50, 0.9); /* gris oscuro translúcido */
+  border: 1px solid #FCB53B; /* borde dorado */
+  border-radius: 10px;
+  margin-bottom: 1rem; /* espacio uniforme entre items */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  transition: all 0.3s ease;
+}
+
+/* --- BOTONES / TÍTULOS --- */
+.accordion-button {
+  background-color: #2c2c2c; /* gris oscuro */
+  color: #FFD77A; /* amarillo cálido para títulos */
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.6);
+  border-radius: 8px;
+  margin: 4px 0;
+  transition: all 0.3s ease;
+}
+
+.accordion-button:hover {
+  background-color: #5f5f5f;
+  color: #FFE797;
+  box-shadow: 0 4px 10px rgba(252, 181, 59, 0.6);
+}
+
+.accordion-button:focus {
+  outline: none;
+  box-shadow: 0 0 10px #FCB53B;
+}
+
+/* Cuando se expande */
+.accordion-button:not(.collapsed) {
+  background-color: #3d3d3d;
+  color: #FFE797;
+}
+
+/* --- CUERPO DEL ACORDEÓN --- */
+.accordion-body {
+  background-color: #3e2f1c; /* marrón café oscuro, cálido */
+  color: #FFDFA0; /* amarillo crema, cálido y legible */
+  font-size: 1.05rem;
+  line-height: 1.6;
+  border-radius: 0 0 10px 10px;
+  padding: 1.2rem;
+  transition: all 0.3s ease;
+  border-top: 1px solid #FCB53B; /* detalle dorado */
+}
+
+
+
+/* --- PÁRRAFOS --- */
+.accordion-body p {
+  margin-bottom: 1rem;
+}
+
+/* --- CARRUSELES DENTRO DEL ACORDEÓN --- */
+.accordion-body .carousel {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+  border: 1px solid #FCB53B;
+  border-radius: 10px;
+}
+
+/* --- PARTE RESPONSIVA --- */
+@media (max-width: 768px) {
+  .accordion-body {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}
+
+
+/* Título principal de la sección */
+.fw-bold.text-center.mb-4 {
+  color: #FFD77A; /* amarillo dorado vibrante */
+  text-shadow: 3px 3px 12px rgba(0,0,0,0.75); /* sombra más profunda y elegante */
+  letter-spacing: 1.2px; /* un poco más de espacio entre letras */
+  font-size: 3rem; /* más grande para destacar */
+  transition: all 0.3s ease;
+}
+
+.textito.fs-5.timelime-text {
+  color: #FFEFD1; /* amarillo crema cálido, más suave que antes */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6); /* sombra sutil para resaltar */
+  line-height: 1.75; /* un poco más aire entre líneas */
+  transition: all 0.3s ease;
+}
+
+/* Títulos de cada concierto */
+.display-5.fw-bold {
+  color: #FFD77A; /* amarillo dorado más vibrante */
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7); /* sombra elegante */
+}
+
+/* Fechas */
+.fs-5.mb-0 {
+  color: #FCB53B; /* dorado más cálido */
+  font-weight: 600;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
